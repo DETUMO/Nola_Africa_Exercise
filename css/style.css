@@ -15,10 +15,10 @@ body{
     font-size: 1rem;
     margin-top: 5px;
     justify-content: space-between;
-    background: #f5f5;
     text-transform: capitalize;
 }
 .logo{
+    margin-top: auto;
     padding-left: 3rem;
 }
 
@@ -28,7 +28,8 @@ body{
     font-weight: 700;
     color: #000000;
     width: 30px;
-    height: 15px;
+    padding-top: 10px;
+    height: 20px;
     font-size: 14px;
     margin-left: 5px;
     line-height: 15px;
@@ -78,6 +79,7 @@ ul a{
 
 .home .content{
     text-align: center;
+    color: #FFFFFF;
     width: 60rem;
 }
 
@@ -88,7 +90,6 @@ ul a{
 .categories .box-container{
     display: grid;
     box-sizing: border-box;
-    border: 1rem solid #f5f5;
     grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
     gap: 1.5rem;
 }
@@ -105,6 +106,14 @@ ul a{
 .heading{
     text-transform: capitalize;
     text-align: center;
+}
+.pic{
+    display: flex;
+}
+
+.box .pic{
+    align-items: center;
+    justify-content: center;
 }
 
 .heading a{
@@ -300,4 +309,48 @@ ul a{
 .network .box{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.footer{
+    background: #000000;
+}
+.footer .container{
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 20px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+}
+.footer .box{
+    margin: 20px;
+    font-size: 12px;
+}
+.box .net{
+     color: #FF6680;
+     font-style: normal;
+     font-family: 'Poppins';
+     font-size: 14px;
+     font-weight: 700;
+     margin: 5px;
+     text-transform: uppercase;
+}
+
+ul li{
+    list-style: none;
+    margin: 5px;
+}
+
+.footer{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+}
+
+span{
+    color: #FF6680;
 }
